@@ -1,0 +1,20 @@
+<TitleLabel>:
+    text: 'Default Title'
+    font_size: 50
+    canvas.before:
+        Color:
+            rgba: 0.5, 0.2, 0.2, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<GraphView>:
+    size: [600, 1200]
+    BoxLayout:
+        size: [600, 1200]
+        orientation: "vertical"
+        TitleLabel:
+            text: "Graph Views"
+        Button:
+            text: "SAVE"
+            on_release: root.graph_save(self)

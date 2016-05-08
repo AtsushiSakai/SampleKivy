@@ -1,2 +1,5 @@
+matpotlib
+numpy
 kivy
+kivy-garden
 nose

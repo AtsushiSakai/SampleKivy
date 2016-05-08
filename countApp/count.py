@@ -20,5 +20,5 @@ class CountApp(App):
         return CountView()
 
 
-if __name__ == '__main__':
+if __name__ in ('__main__', '__osx__'):
     CountApp().run()
