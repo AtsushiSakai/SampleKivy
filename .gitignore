@@ -312,3 +312,9 @@ TSWLatexianTemp*
 *~[0-9]*
 
 fonts/*.ttf
+bin
+*/bin
+*.app
+.buildozer
+*/.buildozer
+.idea

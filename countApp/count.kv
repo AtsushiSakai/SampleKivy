@@ -1,0 +1,19 @@
+#:kivy 1.9.0
+
+<CountView>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: total_count_view
+            text: "0"
+            font_size: 100
+        Button:
+            id: btn_count_up
+            text: "Count Uppp"
+            font_size: 50
+            on_press: root.count_up()
+        Button:
+            id: btn_count_down
+            text: "Count Down"
+            font_size: 50
+            on_press: root.count_down()
